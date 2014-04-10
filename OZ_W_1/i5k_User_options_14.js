@@ -2040,14 +2040,14 @@ midnode.prototype.wikilink = function()
                 }
                 else
                 {
-//            mywindow = window.open("http://gmod-prod.nal.usda.gov/" + this.name2 + "_" + this.name1);
+//            mywindow = window.open("http://i5k.nal.usda.gov/" + this.name2 + "_" + this.name1);
                     mywindow = window.open("http://en.wikipedia.org/wiki/" + this.name1.toLowerCase());
                 }
             }
         }
         else
         {
-            mywindow = window.open("http://gmod-prod.nal.usda.gov/" + this.name2 + "_" + this.name1);
+            mywindow = window.open("http://i5k.nal.usda.gov/" + this.name2 + "_" + this.name1);
 //            mywindow = window.open("http://en.wikipedia.org/wiki/" + this.name2 + "_" + this.name1);
         }
     }
@@ -2071,13 +2071,13 @@ midnode.prototype.organism_pagelink = function()
                 }
                 else
                 {
-                    mywindow = window.open("http://gmod-prod.nal.usda.gov/" + this.name1);
+                    mywindow = window.open("http://i5k.nal.usda.gov/" + this.name1);
                 }
             }
         }
         else
         {
-            mywindow = window.open("http://gmod-prod.nal.usda.gov/" + this.name2 + "_" + this.name1);
+            mywindow = window.open("http://i5k.nal.usda.gov/" + this.name2 + "_" + this.name1);
         }
     }
 }
